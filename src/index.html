@@ -6,15 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CheckZipCode</title>
+    <link rel="stylesheet" href="../src/styles/reset.css">
+    <link rel="stylesheet" href="../src/styles/style.css">
     <script src="../src/main.js"></script>
 </head>
 
 <body>
-    <label>Text your ZIP CODE:</label>
-    <input type="number" id="zipCode">
-
-    <button onclick="checkZipCode()">Search</button>
-    <div id="showAdress"></div>
+    <div class="consult-cep">
+        <h2>CheckZipCode</h2>
+        <div>
+            <label>Text your ZIP CODE:</label>
+            <input type="number" id="zipCode">
+        </div>
+        <button onclick="checkZipCode()">Search</button>
+        <div id="showAdress"></div>
+    </div>
 </body>
 
 </html>

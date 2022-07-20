@@ -1,0 +1,9 @@
+.consult-cep {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    margin: 150px 500px;
+    border-radius: 7px
+}
