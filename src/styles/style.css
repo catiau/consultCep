@@ -1,9 +1,59 @@
+/* logo-style */
+.logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-title img {
+    width: 70px;
+}
+
+.logo-title h2 {
+    font-family: "Indie Flower", cursive;
+    font-size: 36px;
+}
+
+/* checkAdress-style */
 .consult-cep {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: red;
-    margin: 150px 500px;
-    border-radius: 7px
+    justify-content: center;
+    background-color: rgb(71, 85, 150);
+    border-radius: 7px;
+}
+
+.zipCode {
+    display: flex;
+}
+
+.zipCode span{
+    font-family: "Indie Flower", cursive;
+    font-size: 16px;
+}
+
+.zipCode input {
+    padding: 6px;
+}
+
+.zipCode button {
+    font-family: "Indie Flower", cursive;
+    font-size: 16px;
+}
+
+.showAdress {
+    font-family: "Indie Flower", cursive;
+    background-color: aqua;
+    border-radius: 7px;
+    font-size: 19px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
 }
