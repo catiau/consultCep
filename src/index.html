@@ -8,19 +8,30 @@
     <title>CheckZipCode</title>
     <link rel="stylesheet" href="../src/styles/reset.css">
     <link rel="stylesheet" href="../src/styles/style.css">
+    <link rel="stylesheet" href="../src/styles/fontstyles.css">
     <script src="../src/main.js"></script>
 </head>
 
 <body>
-    <div class="consult-cep">
-        <h2>CheckZipCode</h2>
-        <div>
-            <label>Text your ZIP CODE:</label>
-            <input type="number" id="zipCode">
+   <div class="consult-cep">
+        <div class="logo-title">
+            <img src="https://images.vexels.com/media/users/3/144110/isolated/preview/09bda65b54e1d59746c56afcf9281b85-icone-do-ponteiro-do-marcador-do-mapa.png" alt="">
+            <h2>Check ZipCode</h2>
         </div>
-        <button onclick="checkZipCode()">Search</button>
-        <div id="showAdress"></div>
-    </div>
+        <div class="zipCode">
+            <div class="zipCode-input">
+                <input type="number" id="zipCode">
+                <br>
+                <span>Text your ZIP CODE</span>
+            </div>
+            <div>
+                <button onclick="checkZipCode()">Search</button>
+            </div>
+        </div>
+   </div>
+   <div>
+        <div class="showAdress" id="showAdress"></div>
+   </div>
 </body>
 
 </html>
